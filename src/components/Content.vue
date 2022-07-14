@@ -107,7 +107,7 @@ export default {
 }
 .nav-menu-item {
     position: relative;
-  padding: 18px 24px;
+  padding: 18px 18px;
   cursor: pointer;
   
 }
@@ -146,7 +146,7 @@ export default {
   /* align-items: center; */
 }
 .sub-nav-menu {
-  flex: 2;
+  width: 240px;
   background-color: #f8f8f8;
   /* box-shadow: 0 0 2px 2px #eae1e1; */
   padding: 12px 20px 0 12px;
@@ -221,8 +221,8 @@ export default {
   justify-content: start;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 .content-item {
   text-align: left;
@@ -231,7 +231,7 @@ export default {
   box-shadow: 0 0 1px 1px #deced1;
   overflow: hidden;
   cursor: pointer;
-  margin: 0 5px;
+  margin: 0 12px;
   transition: transform linear 0.3s,opacity linear 0.3s;
   will-change: transform;
   opacity: 0.9;
@@ -262,7 +262,7 @@ img.content-item-logo {
 }
 .content-items {
   width: calc(100% / 3);
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 .subcontent.hiddenSubMenu {
