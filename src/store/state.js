@@ -68,7 +68,7 @@ export default {
                   },
                   {
                     icon: require("../assets/laptopIcon.svg"),
-                    name: "パスワード・二段階認証設定",
+                    name: "パスワード・二段階認",
                     heading:
                       "最大３行までの説明最大３行までの説明最大３行までの説明最大３行までの説明最大３行までの説明最大３行まで",
                   },
